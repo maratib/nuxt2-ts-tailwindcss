@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-3xl text-red-600 font-bold underline">Home Page</h1>
+    <h1 class="text-3xl text-red-600 font-bold underline">Blog Page</h1>
   </div>
 </template>
 
@@ -8,6 +8,7 @@
 import Vue from "vue";
 
 export default Vue.extend({
-  name: "IndexPage",
+  name: "BlogPage",
+  layout: "blogLayout",
 });
 </script>
